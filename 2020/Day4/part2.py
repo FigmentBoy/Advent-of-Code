@@ -29,7 +29,7 @@ with open('input.txt', 'r') as file:
             elif CONFIG["REQUIRED"][key](pp[key]):
                 pass
             else:
-                print(key, pp[key], "INVALID")
+                # print(key, pp[key], "INVALID")
                 break
         else:
             count += 1
