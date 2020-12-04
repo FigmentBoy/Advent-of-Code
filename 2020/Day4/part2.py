@@ -1,4 +1,3 @@
-
 CONFIG = {
     "REQUIRED": {
         "byr": lambda i: len(i) == 4 and 1920 <= int(i) <= 2002, 
